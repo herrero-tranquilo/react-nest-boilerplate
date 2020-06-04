@@ -1,0 +1,7 @@
+{
+  "shop.components.Header.button1": "button1",
+  "shop.components.Header.button2": "button2",
+  "shop.components.Footer.company": "company: {company}",
+  "shop.components.Footer.address": "address: {address}",
+  "shop.components.Footer.phone": "P.H: {phone}"
+}

@@ -1,0 +1,7 @@
+{
+  "shop.components.Header.button1": "버튼1",
+  "shop.components.Header.button2": "버튼2",
+  "shop.components.Footer.company": "회사명: {company}",
+  "shop.components.Footer.address": "주소: {address}",
+  "shop.components.Footer.phone": "전화번호: {phone}"
+}

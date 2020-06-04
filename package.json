@@ -1,22 +1,22 @@
 {
-  "name": "shop-project",
+  "name": "react-nest-boilerplate",
   "private": true,
   "version": "1.0.0",
   "description": "shop project",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://github.com/k0603156/shop-project#readme",
+  "homepage": "https://github.com/k0603156/react-nest-boilerplate#readme",
   "author": {
     "name": "YongkukKim",
     "email": "syntax-err@kakao.com",
     "url": "https://github.com/k0603156/"
   },
   "bugs": {
-    "url": "https://github.com/k0603156/shop-project/issues"
+    "url": "https://github.com/k0603156/react-nest-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/k0603156/shop-project.git"
+    "url": "git+https://github.com/k0603156/react-nest-boilerplate.git"
   },
   "workspaces": {
     "packages": [
@@ -24,34 +24,39 @@
     ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "changed": "lerna changed -all",
+    "pk": "lerna list -all",
+    "ws": "yarn workspaces info",
+    "run:fe": "yarn workspace @react-nest-boilerplate/frontend run",
+    "run:be": "yarn workspace @react-nest-boilerplate/backend run"
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
+    "@types/jest": "^25.0.0",
+    "jest-resolve": "25.0.0",
+    "babel-jest": "^25.0.0",
+    "jest": "^25.0.0",
+    "@types/node": "^13.0.0",
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
-    "typescript": "~3.7.4",
-    "lerna": "^3.22.0",
-    "jest": "^24.9.0",
-    "jest-environment-jsdom-fourteen": "1.0.1",
-    "jest-resolve": "24.9.0",
-    "jest-watch-typeahead": "0.4.2",
     "babel-eslint": "10.1.0",
-    "babel-jest": "^24.9.0",
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.6",
     "babel-preset-react-app": "^9.1.2",
     "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-loader": "3.0.3",
     "eslint-plugin-flowtype": "4.6.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react": "7.20.0",
     "eslint-plugin-react-hooks": "^1.6.1",
-    "eslint-config-prettier": "^6.7.0",
-    "prettier": "^1.18.2"
+    "jest-environment-jsdom-fourteen": "1.0.1",
+    "jest-watch-typeahead": "0.4.2",
+    "lerna": "^3.22.0",
+    "prettier": "^1.18.2",
+    "typescript": "~3.7.4"
   }
 }

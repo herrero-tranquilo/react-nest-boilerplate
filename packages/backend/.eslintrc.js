@@ -11,12 +11,12 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
   ],
-  root: true,
   env: {
     node: true,
     jest: true,
   },
   rules: {
+    'no-console': ['error', { allow: ['error', 'warn'] }],
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-explicit-any': 'off',

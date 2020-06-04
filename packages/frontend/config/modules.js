@@ -51,8 +51,8 @@ function getAdditionalModulePaths(options = {}) {
   throw new Error(
     chalk.red.bold(
       "Your project's `baseUrl` can only be set to `src` or `node_modules`." +
-        ' Create React App does not support other values at this time.'
-    )
+        ' Create React App does not support other values at this time.',
+    ),
   );
 }
 
@@ -105,12 +105,11 @@ function getModules() {
 
   if (hasTsConfig && hasJsConfig) {
     throw new Error(
-      'You have both a tsconfig.json and a jsconfig.json. If you are using TypeScript please remove your jsconfig.json file.'
+      'You have both a tsconfig.json and a jsconfig.json. If you are using TypeScript please remove your jsconfig.json file.',
     );
   }
 
   let config;
-
   // If there's a tsconfig.json we assume it's a
   // TypeScript project and set up the config
   // based on tsconfig.json

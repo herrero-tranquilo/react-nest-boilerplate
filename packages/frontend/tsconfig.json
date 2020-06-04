@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -14,7 +15,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "typeRoots": ["*.d.ts", "../../node_modules"],
+    "types": []
   },
   "include": ["src"]
 }

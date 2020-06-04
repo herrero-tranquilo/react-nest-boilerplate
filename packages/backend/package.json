@@ -1,10 +1,14 @@
 {
-  "name": "api",
+  "name": "@react-nest-boilerplate/backend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "",
-  "author": "",
   "license": "MIT",
+  "author": {
+    "name": "YongkukKim",
+    "email": "syntax-err@kakao.com",
+    "url": "https://github.com/k0603156/"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",

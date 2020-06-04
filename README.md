@@ -1,1 +1,1 @@
-# shopping mall project
+# react-nest-boilerplate
