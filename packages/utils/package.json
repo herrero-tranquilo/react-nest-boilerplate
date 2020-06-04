@@ -1,0 +1,19 @@
+{
+  "name": "@shop-project/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.13.1 < 17",
+    "react-dom": ">= 16.13.1 < 17"
+  },
+  "devDependencies": {}
+}
